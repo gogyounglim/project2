@@ -1,33 +1,36 @@
 *{margin: 0 ; padding: 0; font-family: "맑은고딕";}
 ul,li,ol{list-style: none; margin: 0; padding: 0;}
 /*헤더 로고*/
-header{width: 1100px; height: 100px; margin: 0 auto; }
-.main img{margin:22px 0 0 400px;}  
+header{width: 100%; height: 100px; margin: 0 auto; background-color: white;}
+.main img{margin:22px 0 0 400px; float: left;}  
 
 hr{background-color: gray; height: 0.1px; margin: 0 auto; text-align: center;}
 
 /* 최상단 nav*/
-nav .one{width: 1500px; height: 50px;  margin: 0 auto; }
-nav .one,nav .two ul{font-family: 'Akshar', sans-serif; font-weight: bold;}/*네비 두개 같이사용*/
-nav ul li{float: left; padding: 0 20px; margin: 0 70px 0 0;}/*li간 간격조절*/
-nav ul li :nth-child(1){margin: 0 0 0 20px;}
-nav ul li a{text-decoration: none; color: #333; margin:left 70px;  }
-nav ul a:hover{color: #777;}
+.one{width: 2000px; height: 50px;  margin: 0 auto; }
+.one ul{font-family: 'Akshar', sans-serif; font-weight: bold;}/*네비 두개 같이사용*/
+header ul li{float: left; padding: 0 20px; margin: 0 70px 0 0; font-size: 20px;}/*li간 간격조절*/
+header ul li :nth-child(1){margin: 0 0 0 60px;}
+header ul li{margin: 30px;}
+header ul li a{text-decoration: none; color: #333; margin:left 70px;  }
+header ul a:hover{color: #777;}
+.one{position: fixed; top: px; left:0 ; right: 0;padding-top: 30px;  background-color: white;  text-align: center; padding-top: 30px; padding-bottom: 70px;}
+
 
 /*다음 nav*/
-nav .two{width: 1200px; height: 50px;  margin: 0 auto; font-family: 'Akshar', sans-serif;}
+/* nav .two{width: 1200px; height: 50px; margin: 0 auto; font-family: 'Akshar', sans-serif;}
 nav .two ul li{float: left; padding: 0 20px; margin: 0 200px 0 0;}
 nav .two ul li:nth-child(1){margin: 0 150px 0 100px;}
-nav ul a:hover{color:#777}
+nav ul a:hover{color:#777} */
 
 /*메인 슬라이더*/
-#slider{width: 1180px; height: 700px; margin: 0 auto; }
+#slider{width: 1180px; height: 700px; margin: 0 auto; padding-top: 70px;}
 .slider1{width: 1180px; height: 660px; margin: 0 auto; }
 .slider2{width: 1180px; height: 660px; margin: 0 auto; display: none;}
 .slider2 img{width: 1180px; height: 660px; margin: -8px 0 0 0;}
 .slider3{width: 1180px; height: 660px; margin: 0 auto; display: none;}
-
-.buttonMain{width: 270pxx; height: 70px; float: left; background-color: white; position: absolute ;top: 785px; margin: 0 0 0 2px;  }
+/* 슬라이더 버튼 */
+.buttonMain{width: 270pxx; height: 70px; float: left; background-color: white; position: absolute ;top:752px; margin: 0 0 0 0px;  }
 .button1:hover{color: wheat; background-color: #999;}
 .button2:hover{color: wheat; background-color: #999;}
 button{width: 140px; height: 70px;float: left; background-color:whitesmoke ;font-weight: bold; font-size: 16px; border: 0; color: #777; padding: 5px; }
