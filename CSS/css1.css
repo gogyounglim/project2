@@ -2,7 +2,7 @@
 ul,li,ol{list-style: none; margin: 0; padding: 0;}
 /*헤더 로고*/
 header{width: 100%; height: 100px; margin: 0 auto; background-color: white;}
-.main img{margin:22px 0 0 400px; float: left;}  
+.one img{margin:22px 0 0 30px; float: left;}  
 
 hr{background-color: gray; height: 0.1px; margin: 0 auto; text-align: center;}
 
@@ -10,7 +10,7 @@ hr{background-color: gray; height: 0.1px; margin: 0 auto; text-align: center;}
 .one{width: 2000px; height: 50px;  margin: 0 auto; }
 .one ul{font-family: 'Akshar', sans-serif; font-weight: bold;}/*네비 두개 같이사용*/
 header ul li{float: left; padding: 0 20px; margin: 0 70px 0 0; font-size: 20px;}/*li간 간격조절*/
-header ul li :nth-child(1){margin: 0 0 0 60px;}
+header ul li :nth-child(1){margin: 0 0 0 40px;}
 header ul li{margin: 30px;}
 header ul li a{text-decoration: none; color: #333; margin:left 70px;  }
 header ul a:hover{color: #777;}
