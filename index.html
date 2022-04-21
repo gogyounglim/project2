@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>신발 쇼핑물</title>
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Akshar:wght@500&family=BioRhyme:wght@300&display=swap');
+
+    </style>
+    <link rel="stylesheet" href="CSS/css1.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+    <script>
+        $(function(){
+            $('.button1').click(function(){
+                if($('.slider1').css('display')=== 'block' ){
+                    $('.slider1').hide();
+                    $('.slider2').hide();
+                    $('.slider3').fadeIn();
+                }
+                else if($('.slider3').css('display')=== 'block' ){
+                        $('.slider1').hide();
+                        $('.slider2').fadeIn();
+                        $('.slider3').hide();
+                }
+                
+                else{
+                    $('.slider1').fadeIn();
+                    $('.slider2').hide();
+                    $('.slider3').hide();
+
+                }
+            })
+        })
+        $(function(){
+            $('.button2').click(function(){
+                if($('.slider1').css('display')=== 'block' ){
+                    $('.slider1').hide();
+                    $('.slider2').fadeIn();
+                    $('.slider3').hide();
+                }
+                else if($('.slider2').css('display')=== 'block' ){
+                        $('.slider1').hide();
+                        $('.slider2').hide();
+                        $('.slider3').fadeIn();
+                }
+                
+                else{
+                    $('.slider1').fadeIn();
+                    $('.slider2').hide();
+                    $('.slider3').hide();
+
+                }
+            })
+        })
+    </script>
+    <script>
+        $(function(){
+            $('.ThreePost').hover(function(){
+                $('.SoldOut').show();
+            }
+            ,function(){
+                $('.SoldOut').hide();
+            });
+        });
+
+        $(function(){
+            $('.ThreePost2').hover(function(){
+                $('.SoldOut2').show();
+            }
+            ,function(){
+                $('.SoldOut2').hide();
+            });
+        });
+
+        $(function(){
+            $('.ThreePost3').hover(function(){
+                $('.SoldOut3').show();
+            }
+            ,function(){
+                $('.SoldOut3').hide();
+            });
+        });
+
+    </script>
+</head>
+<body>
+    <header>   
+         <div class="main">
+             <img src="img\KakaoTalk_20220411_015317461.png" alt="쇼핑물이름">
+         </div>
+    </header>
+    
+    <nav>
+        <div class="one">
+            <ul>
+                <li><a href="#">BRAND</a> </li>
+                <li><a href="#">MEN</a></li>
+                <li><a href="#">WOMEN</a></li>
+                <li><a href="#">KIDS<a></li>
+                <li><a href="#">APPAREL</a></li>
+                <li><a href="#">SALE</a></li>
+                <li><a href="#">EVENT</a></li>
+                <li><a href="#">STORE</a></li>
+            </ul>
+        </div>
+        <hr>
+
+        <div class="two">
+            <ul>
+                <li><a href="#">FREE SHOPPING</a></li>
+                <li><a href="#">100% MONEY BACK</a></li>
+                <li><a href="#">SURPORT</a></li>
+            </ul>
+
+        </div>
+    </nav>
+    <div id="slider">
+        <div class="slider1">
+            <a href="#"><img src="img/나이키메인.jpg" alt="나이키메인"></a>
+        </div> 
+        
+        <div class="slider2">
+            <a href="#"><img src="img/반스메인2.png" alt=""></a>
+        </div>
+        
+        <div class="slider3">
+            <a href="#"><img src="img/puma메인.png" alt=""></a>
+        </div>
+        
+        <div class="buttonMain">
+            <button type="button" class="button1">Back</button>
+            <button type="button" class="button2">Next</button>
+        </div>
+        
+
+    </div>
+    
+
+    <div class="main1">
+        <div class="chuck"><a href="#"><img src="img/컨버스.jpg" alt="컨버스"></a></div>
+        <div class="vans"><a href="#"><img src="img/반스.jpg" alt="반스"></a></div>
+        <div class="airforce"><a href="#"><img src="img/에어포스.jpg" alt="에어포스"></a></div>
+        <div class="ThreePostMain"> <a href="#"></a>
+            <div class="ThreePost">
+                <a href="#"><img src="img/에어포스2.png" alt="에어포스2"></a>
+                <div class="brand">
+                    <p>나이키</p>
+                </div>
+               
+                <div class="name">
+                    <p>에어포스1</p>
+                </div>
+
+                <div class="price">
+                    <p>129,000</p>
+                </div>
+                
+                <div class="SoldOut">
+                    <br><br><br><p>Sold Out</p><br>
+                </div>
+            </div>
+        </div>
+        <div class="ThreePostMain2">
+            <div class="ThreePost2">
+                <a href="#"><img src="img/adidas.png" alt=""></a>
+                <div class="brand">
+                    <p>아디다스</p>
+                </div>
+                <div class="name">
+                    <p>OZWEEGO</p>
+                </div>
+                <div class="price">
+                    <p>109,600원</p>
+                </div>
+                <div class="SoldOut2">
+                    <br><br><br><p>Sold Out</p><br>
+                </div>
+            </div>
+        </div>
+
+        <div class="ThreePostMain3">
+            <div class="ThreePost3"> 
+                <img src="img/puma.png" alt="푸마">
+                <div class="brand">
+                    <p>퓨마</p>
+                </div>
+                <div class="name">
+                    <p>PUMA SMASH VULC</p>
+                </div>
+                <div class="price">
+                    <p>59,000원</p>
+                </div>
+                <div class="SoldOut3">
+                    <br><br><br><p>Sold Out</p><br>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+    <hr>
+    <div class="Logo">
+        <div class="NikeLogo">
+            <a href="#"><img src="img/nike.png" alt=""></a>
+        </div>
+        <div class="AdidasLogo"> 
+            <a href="#"><img src="img/adidaslogo.png" alt=""></a>
+        </div>
+        <div>
+            <a href="#"><img src="img/vanslogo.png" alt=""></a>
+        </div>
+        <div>
+            <a href="#"><img src="img/LacoLogo.png" alt=""></a>
+        </div>
+        <div>
+            <a href="#"><img src="img/ConverseLogo.png" alt=""></a>
+        </div>
+        <div>
+            <a href="#"><img src="img/PumaLogo.png" alt=""></a>
+        </div>
+    </div>
+    <hr>
+    <div class="Main2">
+        <div class="FourMain1">
+            <div class="FourPost">
+                <a href="#"><img src="img/Vans2.png" alt=""></a>
+                <div class="brand">
+                    <p>반스</p> 
+                </div>
+                <div class="name">
+                    <p>올드스쿨</p>
+                </div>
+                <div class="price">
+                    <p>69,000원</p>
+                </div>
+                
+            </div>
+        </div>
+        <div class="FourMain2">
+            <div class="FourPost2">
+                <a href="#"><img src="img/adidas2.png" alt=""></a>
+                <div class="brand">
+                    <p>아디다스</p>
+                </div>
+                <div class="name">
+                    <p>RUN 60S 2.0</p>
+                </div>
+                <div class="price">
+                    <p>39,000</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="FourMain3">
+            <div class="FourPost3">
+                <a href="#"><img src="img/loco.png" alt=""></a>
+                <div class="brand">
+                    <p>라코스테</p>
+                </div>
+                <div class="name">
+                    <p>SIDELINE 0121 5 CFA</p>
+                </div>
+                <div class="price">
+                    <p>135,000</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="FourMain4">
+            <a href="#"><img src="img/adidasMain.png" alt=""></a>
+        </div>
+    </div>
+
+    <div class="Main3">
+        <a href="#"><img src="img/Main3.png" alt=""></a>
+
+
+    </div>
+    
+    <div class="Main4">
+        <div class="RATING">
+            <p>TOP RATING</p>
+        </div>
+        
+        <div class="RatingPost1">
+            <a href="#"><img src="img/superStar.png" alt=""></a>
+            
+            <div class="info">
+                <div class="brand">
+                    <p>아디다스</p>
+                </div>
+                <div class="name">
+                    <p>BREAKNET K</p>
+                </div>
+                <div class="price">
+                    <p>41,600원</p>
+                </div>
+            </div>
+ 
+        </div>
+
+        <div class="RatingPost2">
+            <a href="#"><img src="img/top adidas.png" alt=""></a>
+            <div class="info">
+                <div class="brand">
+                    <p>아디다스</p>
+                </div>
+                <div class="name">
+                    <p>SPIRITAIN 2000</p>
+                </div>
+                <div class="price">
+                    <p>87,200원</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="RatingPost3">
+            <a href="#"><img src="img/Vans2.png" alt=""></a>
+            <div class="info">
+                <div class="brand">
+                    <p>반스</p>
+                </div>
+                <div class="name">
+                    <p>올드스쿨</p>
+                </div>
+                <div class="price">
+                    <p>69,000원</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="RatingPost4">
+            <a href="#"><img src="img/top adidas2.png" alt=""></a>
+            <div class="info">
+                <div class="brand">
+                    <p>아디다스</p>
+                </div>
+                <div class="name">
+                    <p>OZWEEGO</p>
+                </div>
+                <div class="price">
+                    <p>109,600원</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="RatingPost5">
+            <a href="#"><img src="img/top 에어포스.png" alt=""></a>
+            <div class="info">
+                <div class="brand">
+                    <p>나이키</p>
+                </div>
+                <div class="name">
+                    <p>에어포스1</p>
+                </div>
+                <div class="price">
+                    <p>129,000</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="RatingPost6">
+            <a href="#"><img src="img/loco.png" alt=""></a>
+            <div class="info">
+                <div class="brand">
+                    <p>라코스테</p>
+                </div>
+                <div class="name">
+                    <p>SIDELINE 0121 5 CFA</p>
+                </div>
+                <div class="price">
+                    <p>135,000원</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="box1">
+        <div class="Service">
+            <div class="ServiceInfo1">
+                <p>통합고객센터</p>
+            </div>
+            <div class="ServiceInfo2">
+                <p>1588-0000</p>
+            </div>
+            <div class="ServiceInfo3">
+                <p>월~금 09:00 ~ 12:00 / 13:00 ~ 20:00 토,일 10:00 ~ 14:00(공휴일 휴무)</p>
+            </div>  
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="ImgLogo">
+            <a href="#"><img src="img/KakaoTalk_20220411_015317461.png" alt=""></a>
+        </div>
+        <div class="footerInfo">
+            <p><br>ATHALZ 코리아 | 대표이사: 고경림| 주소:경기도 안산시 상록구 사동 0000-00번지<br>
+                사업자 등록번호:000-00-0000 | 통신판매업신고: 제0000-서울중구-0000 <br>
+                개인정보 보호 책임자:고경림 | 이메일:rhrudfla12445@naver.com
+            </p><br>
+
+            <p>
+                사업자정보 확인 | 개인정보처리방침 | 이용약관 | 멤버쉽 이용약관 | 위치정보 서비스 이용약관 | 구매안전서비스 가입심사확인
+            </p>
+            
+        </div>
+        <br><hr><br><br>
+        <p>본 상품의 상품 이미지 저작권은 고경림 코리아에 있으며 내용의 무단복제를 금합니다 <br>
+            <br> COPYRIGHT Ⓒ ABC-MART KOREA CO,LTD. ALL RIGHTS RESERVED.
+        </p>
+        
+        <div class="mark">
+            <a href=""><img src="img/인증.PNG" alt=""></a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
