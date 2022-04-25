@@ -1,0 +1,34 @@
+*{margin: 0 ; padding: 0; font-family: "맑은고딕";}
+ul,li,ol{list-style: none; margin: 0; padding: 0;}
+/*헤더 로고*/
+header{width: 100%; height: 100px; margin: 0 auto; background-color: white;}
+.one img{margin:22px 0 0 30px; float: left;}  
+
+hr{background-color: gray; height: 0.1px; margin: 0 auto; text-align: center;}
+
+/* 최상단 nav*/
+.one{width: 2000px; height: 50px;  margin: 0 auto; z-index: 2; }
+.one ul{font-family: 'Akshar', sans-serif; font-weight: bold;}/*네비 두개 같이사용*/
+header ul li{float: left; padding: 0 20px; margin: 0 70px 0 0; font-size: 20px;}/*li간 간격조절*/
+header ul li :nth-child(1){margin: 0 0 0 40px;}
+header ul li{margin: 30px;}
+header ul li a{text-decoration: none; color: #333; }
+header ul a:hover{color: #777;}
+.one{position: fixed; top: 0; left:0 ; right: 0;padding-top: 30px;  background-color: white;  text-align: center; padding-top: 30px; padding-bottom: 70px;}
+
+
+/* 고객센터 box */
+.box1{width: 100%; height: 55px; background-color: #eeeeee; margin: 0 auto; text-align: center;}
+
+.box1 .Service{width: 1200px; height: 55px;  margin: 0 auto;}
+
+.Service .ServiceInfo1{float: left;font-size: 15px; font-weight: bold; width: 10%; margin: 15px 0 0 0px;}
+.Service .ServiceInfo2{float: left;font-size: 15px; font-weight: bold; margin: 15px 0 0 20px;}
+.Service .ServiceInfo3{float: left;  font-size: 14px; color: #777; margin: 15px 0 0 40px; }
+
+/* footer */
+footer{width: 1170px; height: 300px; margin: 0 auto;  }
+.ImgLogo{width: 200px; height: 50px; margin: 50px 0 0 0;}
+.mark img{float: right; margin: -30px 0 0 0; }
+.footerInfo{font-size: 10px; color: #777;}
+.footerInfo2{font-size: 10px; color: #777;}
