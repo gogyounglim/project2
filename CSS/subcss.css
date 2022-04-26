@@ -1,13 +1,14 @@
-img{max-width: 100%; max-height: 100%;  }
+img{max-width: 100%; max-height: 100%; }
 
-#slider{width: 1250px; height: 1000px; margin: 0 auto; padding-top: 70px; background-color: red; display: flex; flex-direction: row;}
+#slider{width: 1250px; height: 1000px; margin: 0 auto; padding-top: 70px; display: flex; flex-direction: row;}
 .box{width: 48%; height: 90%; margin: 10px;}
-#slider .box{background-color: aqua;}
 
-#slider .box .anotherImage{width: 600px; height: 120px; background-color: pink; display: flex; flex-direction: row;}
+#slider .box .anotherImage{width: 600px; height: 120px; background-color:  rgb(218, 218, 218); display: flex; flex-direction: row;}
 .imgbox2{background-color: aliceblue; margin: 3px;}
-.imgbox2 img{transform: scale(1); }
-.imgbox2 img:hover{transform: scale(1.2); }
+/* .imgbox2 img{transform: scale(1); }
+.imgbox2 img:hover{transform: scale(1.2); } */
+.imgbox2 img:hover{opacity: 0.5;}
+
 
 
 
@@ -16,17 +17,77 @@ img{max-width: 100%; max-height: 100%;  }
 #slider .box .Ename{color: #999;}
 #slider .box .price{color: red; font-size: 23px; font-weight: bold;}
 
-#slider .box .styleColor{width: 600px; height: 100px;  background-color: pink; display: flex; flex-direction: row;} 
+#slider .box .styleColor{width: 600px; height: 100px;  display: flex; flex-direction: row;} 
 .box2{width: 20%; height: 90%; margin: 5px;}
-.styleColor > div:nth-child(1){background-color:blue ;}
-.styleColor > div:nth-child(2){background-color:blue ;}
-.styleColor > div:nth-child(3){background-color:blue ;}
-.styleColor > div:nth-child(4){background-color:blue ;}
+.styleColor > div:nth-child(1){text-align: center; line-height: 80px;  font-family: 'NanumBarunGothic'; font-weight: bold;}
+/* .styleColor > div:nth-child(2){}
+.styleColor > div:nth-child(3){}
+.styleColor > div:nth-child(4){} */
+.anotherImage{cursor: pointer; }
 
-.info{width: 600px; height: 600px; background-color: burlywood; display: flex;}
-.info .box3:nth-child(1){background-color: aqua; flex-grow: 1; margin: 10px;font-size: 16px; font-weight: bolder;}
-.info .box3:nth-child(2){background-color: aqua; flex-grow: 2;margin: 10px;}
+.info{width: 600px; height: 600px; display: flex;}
+.info .box3:nth-child(1){flex-grow: 1; margin: 10px;font-size: 16px; font-weight: bolder;}
+.info .box3:nth-child(2) {flex-grow: 2;margin: 10px;}
 
 
-.size{width: 400px; height: 170px;   background-color: pink;}
-.size .sizebox{width: 70px; height: 50px; text-align: center; vertical-align: middle; margin: 3px; float: left; background-color: red;}
+.size{width: 430px; height: 70px;}
+/* .size .sizebox{width: 70px; height: 50px; text-align: center; vertical-align: middle; margin: 3px; float: left; background-color: red;} */
+.size button{width: 50px;height: 30px; background-color: white;  margin: 1px; cursor: pointer; }
+
+#sulyang{width: 420px; height: 300px; background-color:white; }
+#sulyang > div{width: 420px; height: 30px;display: none; background-color: #999; float: left; margin: 1px; margin: 0 0 8px 0;}
+
+#sulyang .size220 { width: 420px; height: 30px; border: 2px solid rgb(218, 218, 218); }
+#sulyang .size220 > div:nth-child(1){float: left; width: 50px; height: 30px; background-color: rgb(218, 218, 218);}
+#sulyang .size220 > div:nth-child(2){float: left;  width: 220px; height: 30px; background-color:rgb(218, 218, 218);}
+#sulyang .size220 > div:nth-child(3){float: left;  width: 100px; height: 30px; background-color:rgb(218, 218, 218);}
+#sulyang .size220 > div:nth-child(4){float: left; width: 50px; height: 30px; background-color: rgb(218, 218, 218);}
+
+#sulyang .size225 { width: 420px; height: 30px; border: 2px solid rgb(218, 218, 218); }
+#sulyang .size225 > div:nth-child(1){float: left; width: 50px; height: 30px; background-color: rgb(218, 218, 218);}
+#sulyang .size225 > div:nth-child(2){float: left;  width: 220px; height: 30px; background-color:rgb(218, 218, 218);}
+#sulyang .size225 > div:nth-child(3){float: left;  width: 100px; height: 30px; background-color:rgb(218, 218, 218);}
+#sulyang .size225 > div:nth-child(4){float: left; width: 50px; height: 30px; background-color: rgb(218, 218, 218);}
+
+#sulyang .size230 { width: 420px; height: 30px; border: 2px solid rgb(218, 218, 218); }
+#sulyang .size230 > div:nth-child(1){float: left; width: 50px; height: 30px; background-color: rgb(218, 218, 218);}
+#sulyang .size230 > div:nth-child(2){float: left;  width: 220px; height: 30px; background-color:rgb(218, 218, 218);}
+#sulyang .size230 > div:nth-child(3){float: left;  width: 100px; height: 30px; background-color:rgb(218, 218, 218);}
+#sulyang .size230 > div:nth-child(4){float: left; width: 50px; height: 30px; background-color: rgb(218, 218, 218);}
+
+#sulyang .size235 { width: 420px; height: 30px; border: 2px solid rgb(218, 218, 218); }
+#sulyang .size235 > div:nth-child(1){float: left; width: 50px; height: 30px; background-color: rgb(218, 218, 218);}
+#sulyang .size235 > div:nth-child(2){float: left;  width: 220px; height: 30px; background-color:rgb(218, 218, 218);}
+#sulyang .size235 > div:nth-child(3){float: left;  width: 100px; height: 30px; background-color:rgb(218, 218, 218);}
+#sulyang .size235 > div:nth-child(4){float: left; width: 50px; height: 30px; background-color: rgb(218, 218, 218);}
+
+#sulyang .size240 { width: 420px; height: 30px; border: 2px solid rgb(218, 218, 218); }
+#sulyang .size240 > div:nth-child(1){float: left; width: 50px; height: 30px; background-color: rgb(218, 218, 218);}
+#sulyang .size240 > div:nth-child(2){float: left;  width: 220px; height: 30px; background-color:rgb(218, 218, 218);}
+#sulyang .size240 > div:nth-child(3){float: left;  width: 100px; height: 30px; background-color:rgb(218, 218, 218);}
+#sulyang .size240 > div:nth-child(4){float: left; width: 50px; height: 30px; background-color: rgb(218, 218, 218);}
+
+#sulyang .size245 { width: 420px; height: 30px; border: 2px solid rgb(218, 218, 218); }
+#sulyang .size245 > div:nth-child(1){float: left; width: 50px; height: 30px; background-color: rgb(218, 218, 218);}
+#sulyang .size245 > div:nth-child(2){float: left;  width: 220px; height: 30px; background-color:rgb(218, 218, 218);}
+#sulyang .size245 > div:nth-child(3){float: left;  width: 100px; height: 30px; background-color:rgb(218, 218, 218);}
+#sulyang .size245 > div:nth-child(4){float: left; width: 50px; height: 30px; background-color: rgb(218, 218, 218);}
+
+#sulyang .size250 { width: 420px; height: 30px; border: 2px solid rgb(218, 218, 218); }
+#sulyang .size250 > div:nth-child(1){float: left; width: 50px; height: 30px; background-color: rgb(218, 218, 218);}
+#sulyang .size250 > div:nth-child(2){float: left;  width: 220px; height: 30px; background-color:rgb(218, 218, 218);}
+#sulyang .size250 > div:nth-child(3){float: left;  width: 100px; height: 30px; background-color:rgb(218, 218, 218);}
+#sulyang .size250 > div:nth-child(4){float: left; width: 50px; height: 30px; background-color: rgb(218, 218, 218);}
+
+
+
+
+
+.plusMinus2 button{width: 18px; height: 28px; text-align: center;}
+
+
+
+.plusMinus2{text-align: center;}
+.cancle{text-align: center;}
+.plusMinusBox{width: 60px; height: 30px; background-color: rgb(218, 218, 218); float: right; border: 1px solid #999;}
+.pricemain1{text-align: center;}
