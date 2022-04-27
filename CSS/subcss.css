@@ -8,6 +8,7 @@ img{max-width: 100%; max-height: 100%; }
 /* .imgbox2 img{transform: scale(1); }
 .imgbox2 img:hover{transform: scale(1.2); } */
 .imgbox2 img:hover{opacity: 0.5;}
+* {font-family: 'NanumBarunGothic';}
 
 
 
@@ -25,69 +26,98 @@ img{max-width: 100%; max-height: 100%; }
 .styleColor > div:nth-child(4){} */
 .anotherImage{cursor: pointer; }
 
-.info{width: 600px; height: 600px; display: flex;}
-.info .box3:nth-child(1){flex-grow: 1; margin: 10px;font-size: 16px; font-weight: bolder;}
-.info .box3:nth-child(2) {flex-grow: 2;margin: 10px;}
+.info{width: 600px; height: 250px; display: flex;}
+.info .box3:nth-child(1){flex-grow: 2; margin: 10px;font-size: 16px; font-weight: bolder;}
+.info .box3:nth-child(2) {flex-grow: 3;margin: 10px; font-size: 14px;}
 
 
 .size{width: 430px; height: 70px;}
 /* .size .sizebox{width: 70px; height: 50px; text-align: center; vertical-align: middle; margin: 3px; float: left; background-color: red;} */
-.size button{width: 50px;height: 30px; background-color: white;  margin: 1px; cursor: pointer; }
+.size button{width: 50px;height: 30px; background-color: white;  margin: 4px; cursor: pointer; }
 
-#sulyang{width: 420px; height: 300px; background-color:white; }
-#sulyang > div{width: 420px; height: 30px;display: none; background-color: #999; float: left; margin: 1px; margin: 0 0 8px 0;}
-
-#sulyang .size220 { width: 420px; height: 30px; border: 2px solid rgb(218, 218, 218); }
-#sulyang .size220 > div:nth-child(1){float: left; width: 50px; height: 30px; background-color: rgb(218, 218, 218);}
-#sulyang .size220 > div:nth-child(2){float: left;  width: 220px; height: 30px; background-color:rgb(218, 218, 218);}
-#sulyang .size220 > div:nth-child(3){float: left;  width: 100px; height: 30px; background-color:rgb(218, 218, 218);}
-#sulyang .size220 > div:nth-child(4){float: left; width: 50px; height: 30px; background-color: rgb(218, 218, 218);}
-
-#sulyang .size225 { width: 420px; height: 30px; border: 2px solid rgb(218, 218, 218); }
-#sulyang .size225 > div:nth-child(1){float: left; width: 50px; height: 30px; background-color: rgb(218, 218, 218);}
-#sulyang .size225 > div:nth-child(2){float: left;  width: 220px; height: 30px; background-color:rgb(218, 218, 218);}
-#sulyang .size225 > div:nth-child(3){float: left;  width: 100px; height: 30px; background-color:rgb(218, 218, 218);}
-#sulyang .size225 > div:nth-child(4){float: left; width: 50px; height: 30px; background-color: rgb(218, 218, 218);}
-
-#sulyang .size230 { width: 420px; height: 30px; border: 2px solid rgb(218, 218, 218); }
-#sulyang .size230 > div:nth-child(1){float: left; width: 50px; height: 30px; background-color: rgb(218, 218, 218);}
-#sulyang .size230 > div:nth-child(2){float: left;  width: 220px; height: 30px; background-color:rgb(218, 218, 218);}
-#sulyang .size230 > div:nth-child(3){float: left;  width: 100px; height: 30px; background-color:rgb(218, 218, 218);}
-#sulyang .size230 > div:nth-child(4){float: left; width: 50px; height: 30px; background-color: rgb(218, 218, 218);}
-
-#sulyang .size235 { width: 420px; height: 30px; border: 2px solid rgb(218, 218, 218); }
-#sulyang .size235 > div:nth-child(1){float: left; width: 50px; height: 30px; background-color: rgb(218, 218, 218);}
-#sulyang .size235 > div:nth-child(2){float: left;  width: 220px; height: 30px; background-color:rgb(218, 218, 218);}
-#sulyang .size235 > div:nth-child(3){float: left;  width: 100px; height: 30px; background-color:rgb(218, 218, 218);}
-#sulyang .size235 > div:nth-child(4){float: left; width: 50px; height: 30px; background-color: rgb(218, 218, 218);}
-
-#sulyang .size240 { width: 420px; height: 30px; border: 2px solid rgb(218, 218, 218); }
-#sulyang .size240 > div:nth-child(1){float: left; width: 50px; height: 30px; background-color: rgb(218, 218, 218);}
-#sulyang .size240 > div:nth-child(2){float: left;  width: 220px; height: 30px; background-color:rgb(218, 218, 218);}
-#sulyang .size240 > div:nth-child(3){float: left;  width: 100px; height: 30px; background-color:rgb(218, 218, 218);}
-#sulyang .size240 > div:nth-child(4){float: left; width: 50px; height: 30px; background-color: rgb(218, 218, 218);}
-
-#sulyang .size245 { width: 420px; height: 30px; border: 2px solid rgb(218, 218, 218); }
-#sulyang .size245 > div:nth-child(1){float: left; width: 50px; height: 30px; background-color: rgb(218, 218, 218);}
-#sulyang .size245 > div:nth-child(2){float: left;  width: 220px; height: 30px; background-color:rgb(218, 218, 218);}
-#sulyang .size245 > div:nth-child(3){float: left;  width: 100px; height: 30px; background-color:rgb(218, 218, 218);}
-#sulyang .size245 > div:nth-child(4){float: left; width: 50px; height: 30px; background-color: rgb(218, 218, 218);}
-
-#sulyang .size250 { width: 420px; height: 30px; border: 2px solid rgb(218, 218, 218); }
-#sulyang .size250 > div:nth-child(1){float: left; width: 50px; height: 30px; background-color: rgb(218, 218, 218);}
-#sulyang .size250 > div:nth-child(2){float: left;  width: 220px; height: 30px; background-color:rgb(218, 218, 218);}
-#sulyang .size250 > div:nth-child(3){float: left;  width: 100px; height: 30px; background-color:rgb(218, 218, 218);}
-#sulyang .size250 > div:nth-child(4){float: left; width: 50px; height: 30px; background-color: rgb(218, 218, 218);}
+#box4{width: 600px; height: 300px;  float: left;  }
 
 
+/* 수량버튼  */
+#sulyang{width: 600px; height: 60px; background-color:white; margin: 5px 0 0 0; font-family: 'NanumBarunGothic' ; font-weight: 900;}
+#sulyang > div{width: 620px; height: 30px;display: none; background-color: white; float: left;}
 
+#sulyang .size220 { width: 600px; height: 30px; border-bottom:  solid #999 1px;}
+#sulyang .size220 > div:nth-child(1){ float: left; width: 50px; height: 30px; }
+#sulyang .size220 > div:nth-child(2){float: left;  width: 300px; height: 30px;}
+#sulyang .size220 > div:nth-child(3){float: left;  width: 200px; height: 30px;}
+#sulyang .size220 > div:nth-child(4){float: left; width: 50px; height: 30px; }
 
+#sulyang .size225 { width: 600px; height: 30px; border-bottom:  solid #999 1px;}
+#sulyang .size225 > div:nth-child(1){float: left; width: 50px; height: 30px; }
+#sulyang .size225 > div:nth-child(2){float: left;  width: 300px; height: 30px;}
+#sulyang .size225 > div:nth-child(3){float: left;  width: 200px; height: 30px;}
+#sulyang .size225 > div:nth-child(4){float: left; width: 50px; height: 30px; }
 
-.plusMinus2 button{width: 18px; height: 28px; text-align: center;}
+#sulyang .size230 { width: 600px; height: 30px; border-bottom:  solid #999 1px;}
+#sulyang .size230 > div:nth-child(1){float: left; width: 50px; height: 30px; }
+#sulyang .size230 > div:nth-child(2){float: left;  width: 300px; height: 30px;}
+#sulyang .size230 > div:nth-child(3){float: left;  width: 200px; height: 30px;}
+#sulyang .size230 > div:nth-child(4){float: left; width: 50px; height: 30px; }
 
+#sulyang .size235 { width: 600px; height: 30px; border-bottom:  solid #999 1px;}
+#sulyang .size235 > div:nth-child(1){float: left; width: 50px; height: 30px; }
+#sulyang .size235 > div:nth-child(2){float: left;  width: 300px; height: 30px;}
+#sulyang .size235 > div:nth-child(3){float: left;  width: 200px; height: 30px;}
+#sulyang .size235 > div:nth-child(4){float: left; width: 50px; height: 30px; }
+
+#sulyang .size240 { width: 600px; height: 30px; border-bottom:  solid #999 1px;}
+#sulyang .size240 > div:nth-child(1){float: left; width: 50px; height: 30px; }
+#sulyang .size240 > div:nth-child(2){float: left;  width: 300px; height: 30px;}
+#sulyang .size240 > div:nth-child(3){float: left;  width: 200px; height: 30px;}
+#sulyang .size240 > div:nth-child(4){float: left; width: 50px; height: 30px; }
+
+#sulyang .size245 { width: 600px; height: 30px; border-bottom:  solid #999 1px;}
+#sulyang .size245 > div:nth-child(1){float: left; width: 50px; height: 30px; }
+#sulyang .size245 > div:nth-child(2){float: left;  width: 300px; height: 30px;}
+#sulyang .size245 > div:nth-child(3){float: left;  width: 200px; height: 30px;}
+#sulyang .size245 > div:nth-child(4){float: left; width: 50px; height: 30px; }
+
+#sulyang .size250 { width: 600px; height: 30px; }
+#sulyang .size250 > div:nth-child(1){float: left; width: 50px; height: 30px; }
+#sulyang .size250 > div:nth-child(2){float: left;  width: 300px; height: 30px;}
+#sulyang .size250 > div:nth-child(3){float: left;  width: 200px; height: 30px;}
+#sulyang .size250 > div:nth-child(4){float: left; width: 50px; height: 30px; }
+
+/* 수량추가버튼 */
+.plusMinus2 button{width: 18px; height: 28px; text-align: center;cursor: pointer; background-color: white; border: 0ch;}
 
 
 .plusMinus2{text-align: center;}
-.cancle{text-align: center;}
-.plusMinusBox{width: 60px; height: 30px; background-color: rgb(218, 218, 218); float: right; border: 1px solid #999;}
+.cancle1{text-align: center; cursor: pointer;}
+.plusMinusBox{width: 60px; height: 27px;  float: right;}
 .pricemain1{text-align: center;}
+
+.cancle2{text-align: center; cursor: pointer;}
+.pricemain2{text-align: center;}
+
+.cancle3{text-align: center; cursor: pointer;}
+.pricemain3{text-align: center;}
+
+.cancle4{text-align: center; cursor: pointer;}
+.pricemain4{text-align: center;}
+
+.cancle5{text-align: center; cursor: pointer;}
+.pricemain5{text-align: center;}
+
+.cancle6{text-align: center; cursor: pointer;}
+.pricemain6{text-align: center;}
+
+.cancle7{text-align: center; cursor: pointer;}
+.pricemain7{text-align: center;}
+
+#chongprice{width: 600px; height: 100px; display: flex; }
+#chongprice .chongpriceBox:nth-child(1){flex-grow: 1; font-weight: bolder; margin: 15px;}
+#chongprice .chongpriceBox:nth-child(2){flex-grow: 1; text-align: right; color: #999;}
+#chongprice .lastPrice{color: red; font-size: 35px; margin: 0 5px 0 0 ; font-weight: 900;}
+
+.btjangbaguni{width: 297PX; height: 70PX; font-weight: 900; font-size: 15px; border: 1px;}
+.btbarogumae{width: 297pX; height: 70PX;font-weight: 900;font-size:15px; border: 1px;}
+
+.btjangbaguni:hover{background-color: #888;}
+.btbarogumae:hover{background-color: #888;}
