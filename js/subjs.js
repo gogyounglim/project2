@@ -203,4 +203,78 @@ function imgbox2click4(){
     document.getElementById("changeimg").src="img/subimg/반스4.png"
 }
 
+// 캔슬버튼 추가 
 
+$(function(){
+    $('.cancle1').click(function(){
+        $('.size220').hide();
+        
+    });
+})
+
+$(function(){
+    $('.cancle2').click(function(){
+        $('.size225').hide();
+        
+    });
+})
+$(function(){
+    $('.cancle3').click(function(){
+        $('.size230').hide();
+        
+    });
+})
+$(function(){
+    $('.cancle4').click(function(){
+        $('.size235').hide();
+        
+    });
+})
+$(function(){
+    $('.cancle5').click(function(){
+        $('.size240').hide();
+        
+    });
+})
+$(function(){
+    $('.cancle6').click(function(){
+        $('.size245').hide();
+        
+    });
+})
+$(function(){
+    $('.cancle7').click(function(){
+        $('.size250').hide();
+        
+    });
+})
+
+
+
+$(function(){
+  $('.size button:nth-of-type(1)').click(function(){
+      $('.size220').fadeIn();
+  })
+  
+  $('.size button:nth-of-type(2)').click(function(){
+      $('.size225').fadeIn();
+  })
+  
+  $('.size button:nth-of-type(3)').click(function(){
+      $('.size230').fadeIn();
+  })
+  
+  $('.size button:nth-of-type(4)').click(function(){
+      $('.size235').fadeIn();
+  })
+  $('.size button:nth-of-type(5)').click(function(){
+      $('.size240').fadeIn();
+  })
+
+  $('.size button:nth-of-type(6)').click(function(){
+      $('.size245').fadeIn();
+  })
+  $('.size button:nth-of-type(7)').click(function(){
+      $('.size250').fadeIn();
+  })
+})

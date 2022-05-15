@@ -34,14 +34,14 @@ button{width: 140px; height: 70px;float: left; background-color:whitesmoke ;font
 .ThreePost3 img{width: 250px; height: 400px; margin: 0 0 0 10px;}
 
 .SoldOut{width: 270px; height: 390px; opacity: 0.7; background-color: #333;
-        position: absolute; margin: -488px 0 0 0; font-size: 40PX;
+        position: absolute; margin: -478px 0 0 0; font-size: 40PX;
          color: white;text-align: center; display: none;} 
 .SoldOut2{width: 270px; height: 390px; opacity: 0.7; background-color: #333;
             position: absolute; margin: -488px 0 0 0; font-size: 40PX; color: white;
             text-align: center; display: none; } 
 .SoldOut3{width: 270px; height: 390px; opacity: 0.7; background-color: #333;
             position: absolute;  font-size: 40PX; color: white;
-            text-align: center;margin: -488px 0 0 0; display:none ;} 
+            text-align: center;margin: -478px 0 0 0; display:none ;} 
 
 /* 3번째 레이아웃 상품 정보통일 */
 .brand{font-size: 19px; font-family:""; font-weight: bold; }
