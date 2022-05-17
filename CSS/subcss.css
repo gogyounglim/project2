@@ -26,6 +26,7 @@ img{max-width: 100%; max-height: 100%; }
 .styleColor > div:nth-child(3){}
 .styleColor > div:nth-child(4){} */
 .anotherImage{cursor: pointer; }
+.anotherImage img{border: 1px solid #999;}
 
 .info{width: 600px; height: 250px; display: flex;}
 .info .box3:nth-child(1){flex-grow: 2; margin: 10px;font-size: 16px; font-weight: bolder;}
@@ -124,7 +125,7 @@ img{max-width: 100%; max-height: 100%; }
 .btbarogumae:hover{background-color: #888;}
 
 
-.container1{ width: 1200px; height: 3500px; margin: 0 auto; }
+#container1{ width: 1200px; height: 3500px; margin: 0 auto; }
 .Detail ul li{width: 239PX; height: 30PX; background-color: white; float: left; padding: 0 10px; padding: 30px; font-size: 20px;vertical-align : middle; text-align: center;}
 .Detail ul li:nth-child(1){border-left: 1px solid black; border-right: 1px solid; border-top: 1px solid black; }
 .Detail ul li:nth-child(2){border-bottom: 1px solid black; background-color: rgb(218, 218, 218); cursor: pointer;}   
@@ -132,18 +133,18 @@ img{max-width: 100%; max-height: 100%; }
 .Detail ul li:nth-child(4){border-bottom: 1px solid black;background-color: rgb(218, 218, 218); cursor: pointer;}  
 .Detail ul li:hover{opacity: 0.7;} 
 
-.container1 img:nth-child(2){margin: 50px 0 0 120px;}
-.container1 img:nth-child(3){margin: -4px 0 0 120px;}
-.container1 img:nth-child(4){margin: -4px 0 0 120px;}
-.container1 img:nth-child(5){margin: -4px 0 0 120px;}
+#container1 img:nth-child(3){margin: 50px 0 0 120px;}
+#container1 img:nth-child(4){margin: -4px 0 0 120px;}
+#container1 img:nth-child(5){margin: -4px 0 0 120px;}
+#container1 img:nth-child(6){margin: -4px 0 0 120px;}
 
-.container2{width: 1200px; height: 2000px;  margin: 0 auto; }
+#container2{width: 1200px; height: 2000px;  margin: 0 auto; }
 
-.review ul li{width: 239PX; height: 30PX; background-color: white; float: left; padding: 0 10px; padding: 30px; font-size: 20px;vertical-align : middle; text-align: center;}
-.review ul li:nth-child(2){border-left: 1px solid black; border-right: 1px solid; border-top: 1px solid black; }
-.review ul li:nth-child(1){border-bottom: 1px solid black; background-color: rgb(218, 218, 218); cursor: pointer;}   
-.review ul li:nth-child(3){border-bottom: 1px solid black;background-color: rgb(218, 218, 218); cursor: pointer;}   
-.review ul li:nth-child(4){border-bottom: 1px solid black;background-color: rgb(218, 218, 218); cursor: pointer;}  
+.review ul li{width: 239PX; height: 30PX; background-color: white; float: left; padding: 30px; font-size: 20px;vertical-align : middle; text-align: center;}
+.review ul li:nth-child(3){border-left: 1px solid black; border-right: 1px solid; border-top: 1px solid black; }
+.review ul li:nth-child(4){border-bottom: 1px solid black; background-color: rgb(218, 218, 218); cursor: pointer;}   
+.review ul li:nth-child(5){border-bottom: 1px solid black;background-color: rgb(218, 218, 218); cursor: pointer;}   
+.review ul li:nth-child(2){border-bottom: 1px solid black;background-color: rgb(218, 218, 218); cursor: pointer;}  
 .review ul li:hover{opacity: 0.7;} 
 
 table{width: 100%;   font-size: 15px; border-collapse: collapse; }
@@ -151,25 +152,28 @@ table td{width: 400px; border-bottom: 1px solid #999; padding: 19px; text-align:
 
 /* .container2 h1{font-size: 30px; font-weight: 700; margin: 0px 20px 30px 20px; } */
 
-.container3{margin: 150px 0 0 0;}
-.qa ul li{width: 239PX; height: 30PX; background-color: white; float: left; padding: 0 10px; padding: 30px; font-size: 20px;vertical-align : middle; text-align: center;}
-.qa ul li:nth-child(3){border-left: 1px solid black; border-right: 1px solid; border-top: 1px solid black; }
+#container3{margin: 150px 0 0 0;}
+.qa ul li{width: 239PX; height: 30PX; background-color: white; float: left;  padding: 30px; font-size: 20px;vertical-align : middle; text-align: center;}
+.qa ul li:nth-child(4){border-left: 1px solid black; border-right: 1px solid; border-top: 1px solid black; }
 .qa ul li:nth-child(2){border-bottom: 1px solid black; background-color: rgb(218, 218, 218); cursor: pointer;}   
-.qa ul li:nth-child(1){border-bottom: 1px solid black;background-color: rgb(218, 218, 218); cursor: pointer;}   
-.qa ul li:nth-child(4){border-bottom: 1px solid black;background-color: rgb(218, 218, 218); cursor: pointer;}  
+.qa ul li:nth-child(3){border-bottom: 1px solid black;background-color: rgb(218, 218, 218); cursor: pointer;}   
+.qa ul li:nth-child(5){border-bottom: 1px solid black;background-color: rgb(218, 218, 218); cursor: pointer;}  
 .qa ul li:hover{opacity: 0.7;} 
 
 
-
-.as ul li{width: 239PX; height: 30PX; background-color: white; float: left; padding: 0 10px; padding: 30px; font-size: 20px;vertical-align : middle; text-align: center;}
-.as ul li:nth-child(3){border-left: 1px solid black; border-right: 1px solid; border-top: 1px solid black; }
+#container4{height: 750px;}
+.as ul li{width: 239PX; height: 30PX; background-color: white; float: left;  padding: 30px; font-size: 20px;vertical-align : middle; text-align: center;}
+.as ul li:nth-child(4){border-left: 1px solid black; border-right: 1px solid; border-top: 1px solid black; }
 .as ul li:nth-child(2){border-bottom: 1px solid black; background-color: rgb(218, 218, 218); cursor: pointer;}   
 .as ul li:nth-child(1){border-bottom: 1px solid black;background-color: rgb(218, 218, 218); cursor: pointer;}   
-.as ul li:nth-child(4){border-bottom: 1px solid black;background-color: rgb(218, 218, 218); cursor: pointer;}  
+.as ul li:nth-child(3){border-bottom: 1px solid black;background-color: rgb(218, 218, 218); cursor: pointer;}  
 .as ul li:hover{opacity: 0.7;} 
 
-.baesong{width: 50%; margin: auto;}
+.baesong{width: 100%; height: 100%; margin: 150px 0 0 0;}
+.baesong1{float: left; width: 20%; height: 80%;  margin: 100px 0 0 50px;}
+.baesong2{float: left; width: 60%; height: 80%;  margin: 50px 0 0 0;}
 
+a{text-decoration: none; color: black;}
 
 
 

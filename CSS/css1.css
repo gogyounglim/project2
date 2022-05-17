@@ -6,7 +6,7 @@
 .slider2 img{width: 1180px; height: 660px; margin: -8px 0 0 0;}
 .slider3{width: 1180px; height: 660px; margin: 0 auto; display: none;}
 /* 슬라이더 버튼 */
-.buttonMain{width: 280px; height: 70px; float: left; background-color: white; position: absolute ;top:752px; margin: 0 0 0 0px;  }
+.buttonMain{width: 280px; height: 70px; float: left;  position: absolute ;top:757px; margin: 0 0 0 0px;  }
 .button1:hover{color: wheat; background-color: #999;}
 .button2:hover{color: wheat; background-color: #999;}
 button{width: 140px; height: 70px;float: left; background-color:whitesmoke ;font-weight: bold; font-size: 16px; border: 0; color: #777; padding: 5px; }
@@ -37,7 +37,7 @@ button{width: 140px; height: 70px;float: left; background-color:whitesmoke ;font
         position: absolute; margin: -478px 0 0 0; font-size: 40PX;
          color: white;text-align: center; display: none;} 
 .SoldOut2{width: 270px; height: 390px; opacity: 0.7; background-color: #333;
-            position: absolute; margin: -488px 0 0 0; font-size: 40PX; color: white;
+            position: absolute; margin: -478px 0 0 0; font-size: 40PX; color: white;
             text-align: center; display: none; } 
 .SoldOut3{width: 270px; height: 390px; opacity: 0.7; background-color: #333;
             position: absolute;  font-size: 40PX; color: white;
